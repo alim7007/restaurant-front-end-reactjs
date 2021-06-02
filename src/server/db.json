@@ -1,0 +1,162 @@
+{
+  "Customer": [
+    {
+      "customerID": 1,
+      "customerName": "max"
+    },
+    {
+      "customerID": 2,
+      "customerName": "Homer Simpson"
+    },
+    {
+      "customerID": 3,
+      "customerName": "Mike Vazovski"
+    },
+    {
+      "customerID": 4,
+      "customerName": "ker kerovich"
+    }
+  ],
+  "FoodItem": [
+    {
+      "foodItemId": 1,
+      "foodItemName": "Chicken Tenders",
+      "price": 3.5
+    },
+    {
+      "foodItemId": 2,
+      "foodItemName": "Chicken Tenders w/ Fries",
+      "price": 4.99
+    },
+    {
+      "foodItemId": 3,
+      "foodItemName": "Chicken Tenders w/ Onion",
+      "price": 5.99
+    },
+    {
+      "foodItemId": 4,
+      "foodItemName": "Grilled Cheese Sandwich",
+      "price": 2.5
+    },
+    {
+      "foodItemId": 5,
+      "foodItemName": "Grilled Cheese Sandwich w/ Fries",
+      "price": 3.99
+    },
+    {
+      "foodItemId": 6,
+      "foodItemName": "Pizza",
+      "price": 1.99
+    }
+  ],
+  "Order": [
+    {
+      "orderMasterId": 0,
+      "orderNumber": "403719",
+      "customerId": 2,
+      "pMethod": "Card",
+      "gTotal": 9.49,
+      "deletedOrderItemIds": "",
+      "orderDetails": [
+        {
+          "orderMasterId": 0,
+          "orderDatilId": 0,
+          "foodItemId": 1,
+          "quantity": 1,
+          "foodItemPrice": 3.5,
+          "foodItemName": "Chicken Tenders"
+        },
+        {
+          "orderMasterId": 0,
+          "orderDatilId": 0,
+          "foodItemId": 3,
+          "quantity": 1,
+          "foodItemPrice": 5.99,
+          "foodItemName": "Chicken Tenders w/ Onion"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "orderMasterId": 0,
+      "orderNumber": "616441",
+      "customerId": 3,
+      "pMethod": "Card",
+      "gTotal": 8.49,
+      "deletedOrderItemIds": "",
+      "orderDetails": [
+        {
+          "orderMasterId": 0,
+          "orderDatilId": 0,
+          "foodItemId": 2,
+          "quantity": 1,
+          "foodItemPrice": 4.99,
+          "foodItemName": "Chicken Tenders w/ Fries"
+        },
+        {
+          "orderMasterId": 0,
+          "orderDatilId": 0,
+          "foodItemId": 1,
+          "quantity": 1,
+          "foodItemPrice": 3.5,
+          "foodItemName": "Chicken Tenders"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "orderMasterId": 0,
+      "orderNumber": "735193",
+      "customerId": 2,
+      "pMethod": "Card",
+      "gTotal": 6,
+      "deletedOrderItemIds": "",
+      "orderDetails": [
+        {
+          "orderMasterId": 0,
+          "orderDatilId": 0,
+          "foodItemId": 1,
+          "quantity": 1,
+          "foodItemPrice": 3.5,
+          "foodItemName": "Chicken Tenders"
+        },
+        {
+          "orderMasterId": 0,
+          "orderDatilId": 0,
+          "foodItemId": 4,
+          "quantity": 1,
+          "foodItemPrice": 2.5,
+          "foodItemName": "Grilled Cheese Sandwich"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "orderMasterId": 0,
+      "orderNumber": "669845",
+      "customerId": 3,
+      "pMethod": "Card",
+      "gTotal": 9.49,
+      "deletedOrderItemIds": "",
+      "orderDetails": [
+        {
+          "orderMasterId": 0,
+          "orderDatilId": 0,
+          "foodItemId": 1,
+          "quantity": 1,
+          "foodItemPrice": 3.5,
+          "foodItemName": "Chicken Tenders"
+        },
+        {
+          "orderMasterId": 0,
+          "orderDatilId": 0,
+          "foodItemId": 3,
+          "quantity": 1,
+          "foodItemPrice": 5.99,
+          "foodItemName": "Chicken Tenders w/ Onion"
+        }
+      ],
+      "id": 8
+    }
+  ]
+}
